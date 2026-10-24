@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
@@ -6,81 +7,127 @@
 <title>水童設備</title>
 <style>
   * { box-sizing:border-box; margin:0; padding:0; }
+
   body {
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",
     "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
-    background:#fff; color:#1d1d1f; line-height:1.5;
+    background:#fff;
+    color:#1d1d1f;
+    line-height:1.5;
   }
+
   a { text-decoration:none; color:#0066cc; }
   a:hover { text-decoration:underline; }
 
   .hero {
-    max-width:1100px; margin:0 auto; padding:80px 22px 40px;
+    max-width:1100px;
+    margin:0 auto;
+    padding:80px 22px 40px;
     text-align:center;
   }
+
   .hero h1 {
-    font-size:clamp(38px,6vw,64px); font-weight:700;
+    font-size:clamp(38px,6vw,64px);
+    font-weight:700;
     letter-spacing:-.02em;
   }
+
   .hero p {
-    font-size:clamp(19px,2.5vw,26px); color:#6e6e73; margin-top:12px;
+    font-size:clamp(19px,2.5vw,26px);
+    color:#6e6e73;
+    margin-top:12px;
   }
+
   .hero .cta {
-    display:inline-block; margin-top:24px; font-size:19px;
-  }
-  .hero-img {
-    max-width:1100px; margin:30px auto 0; padding:0 22px;
-  }
-  .hero-img img {
-    width:100%; border-radius:24px; display:block;
-    box-shadow:0 20px 60px rgba(0,0,0,.12);
+    display:inline-block;
+    margin-top:24px;
+    font-size:19px;
   }
 
   .section {
-    max-width:1100px; margin:0 auto; padding:80px 22px 30px;
+    max-width:1100px;
+    margin:0 auto;
+    padding:80px 22px 30px;
   }
+
   .section h2 {
-    font-size:clamp(28px,4vw,44px); font-weight:700;
+    font-size:clamp(28px,4vw,44px);
+    font-weight:700;
     letter-spacing:-.02em;
   }
+
   .section p {
-    color:#6e6e73; font-size:19px; margin-top:8px;
+    color:#6e6e73;
+    font-size:19px;
+    margin-top:8px;
   }
 
   .grid {
-    max-width:1100px; margin:30px auto 100px; padding:0 22px;
-    display:grid; gap:24px;
+    max-width:1100px;
+    margin:30px auto 100px;
+    padding:0 22px;
+    display:grid;
+    gap:24px;
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
   }
+
   .card {
-    background:#f5f5f7; border-radius:24px; overflow:hidden;
-    display:flex; flex-direction:column;
+    background:#f5f5f7;
+    border-radius:24px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
   }
+
   .card img {
-    width:100%; aspect-ratio:4/3; object-fit:cover; display:block;
+    width:100%;
+    aspect-ratio:4/3;
+    object-fit:cover;
+    display:block;
   }
+
   .card-body {
-    padding:26px 24px 30px; text-align:center; flex:1;
-    display:flex; flex-direction:column;
+    padding:26px 24px 30px;
+    text-align:center;
+    flex:1;
+    display:flex;
+    flex-direction:column;
   }
+
   .tag {
-    color:#bf4800; font-size:13px; font-weight:600;
-    text-transform:uppercase; letter-spacing:.04em;
+    color:#bf4800;
+    font-size:13px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:.04em;
   }
+
   .card h3 {
-    font-size:24px; font-weight:700; margin-top:6px;
+    font-size:24px;
+    font-weight:700;
+    margin-top:6px;
   }
+
   .card .desc {
-    color:#6e6e73; font-size:16px; margin-top:8px; flex:1;
+    color:#6e6e73;
+    font-size:16px;
+    margin-top:8px;
+    flex:1;
   }
+
   .card .links {
-    margin-top:18px; font-size:17px;
+    margin-top:18px;
+    font-size:17px;
   }
+
   .card .links a { margin:0 10px; }
 
   footer {
-    background:#f5f5f7; color:#6e6e73;
-    padding:40px 22px; text-align:center; font-size:13px;
+    background:#f5f5f7;
+    color:#6e6e73;
+    padding:40px 22px;
+    text-align:center;
+    font-size:13px;
   }
 </style>
 </head>
@@ -88,9 +135,9 @@
 
 <section class="hero">
   <h1>電競設備</h1>
+  <p>簡約是最終極的精緻</p>
   <a class="cta" href="#devices">查看設備細節 ›</a>
 </section>
-
 
 <section class="section" id="devices">
   <h2>設備細節</h2>
@@ -99,38 +146,72 @@
 
 <div class="grid">
 
+  <!-- 螢幕 -->
   <article class="card">
     <img src="monitor.avif" alt="AOC 24B36X 螢幕">
     <div class="card-body">
       <div class="tag">Display</div>
       <h3>AOC 24B36X</h3>
-      <p class="desc">23.8 吋 螢幕，適合遊戲與日常使用。</p>
+      <p class="desc">23.8 吋螢幕，適合遊戲與日常使用。</p>
       <div class="links">
-        <a href="https://www.aoc.com/me/monitors/24b36x" target="_blank" rel="noopener">查看細節 ›</a>
+        <a href="https://www.aoc.com/me/monitors/24b36x"
+           target="_blank" rel="noopener noreferrer">查看細節 ›</a>
       </div>
     </div>
   </article>
 
+  <!-- 滑鼠 -->
   <article class="card">
     <img src="mouse.webp" alt="ATTACK SHARK R3 無線滑鼠">
     <div class="card-body">
       <div class="tag">Mouse</div>
       <h3>ATTACK SHARK R3</h3>
-      <p class="desc">超輕量無線電競滑鼠，抵抗手腕發炎。</p>
+      <p class="desc">超輕量無線電競滑鼠，適合遊戲與日常操作。</p>
       <div class="links">
-        <a href="https://attackshark.com/products/attack-shark-r3-magnesium-alloy-wireless-gaming-mouse" target="_blank" rel="noopener">查看細節 ›</a>
+        <a href="https://attackshark.com/products/attack-shark-r3-magnesium-alloy-wireless-gaming-mouse"
+           target="_blank" rel="noopener noreferrer">查看細節 ›</a>
       </div>
     </div>
   </article>
 
+  <!-- 鍵盤 -->
   <article class="card">
     <img src="keyboard.jpg" alt="MADLIONS LIGHT 60HE 磁軸鍵盤">
     <div class="card-body">
       <div class="tag">Keyboard</div>
       <h3>MADLIONS LIGHT 60HE</h3>
-      <p class="desc">60% 磁軸電競鍵盤，CNC 鋁合金外殼，物理打擊設計。</p>
+      <p class="desc">60% 磁軸電競鍵盤，CNC 鋁合金外殼。</p>
       <div class="links">
-        <a href="https://madlionskeyboard.com/product/mad-light-60-he/" target="_blank" rel="noopener">查看細節 ›</a>
+        <a href="https://madlionskeyboard.com/product/mad-light-60-he/"
+           target="_blank" rel="noopener noreferrer">查看細節 ›</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- 麥克風：新增 -->
+  <article class="card">
+    <img src="mic.jpg" alt="LEWITT LCT 441 FLEX 電容式麥克風">
+    <div class="card-body">
+      <div class="tag">Microphone</div>
+      <h3>LEWITT LCT 441 FLEX</h3>
+      <p class="desc">錄音室級多指向性電容式麥克風，提供多種指向模式，適合人聲錄製與直播收音。</p>
+      <div class="links">
+        <a href="https://www.lewitt-audio.com/microphones/lct-recording/lct-441-flex"
+           target="_blank" rel="noopener noreferrer">查看細節 ›</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- 聲卡：新增 -->
+  <article class="card">
+    <img src="ag03.jpg" alt="Yamaha AG03 混音器與 USB 音訊介面">
+    <div class="card-body">
+      <div class="tag">Audio Interface</div>
+      <h3>Yamaha AG03</h3>
+      <p class="desc">三聲道混音器與 USB 音訊介面，具備麥克風輸入、效果處理及 LOOPBACK 功能，適合直播與音訊製作。</p>
+      <div class="links">
+        <a href="https://usa.yamaha.com/products/music_production/interfaces/ag_series/"
+           target="_blank" rel="noopener noreferrer">查看細節 ›</a>
       </div>
     </div>
   </article>
